@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aisha Nomani | Finance & AI</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./main.js"></script>
+
+</head>
+
+<body>
+  <!-- Tabs -->
+  <header class="topbar">
+    <nav class="nav">
+      <a href="Aisha Nomani - Resume.pdf" class="nav-link" target="_blank" rel="noopener">Resume</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="courses.html" class="nav-link">Courses</a>
+      <a href="awards.html" class="nav-link">Awards & Certifications</a>
+      <a href="https://github.com/aishanomani" class="nav-link" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/aisha-nomani" class="nav-link" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+  </header>
+
+  <!-- Layout -->
+  <main class="split">
+    <!-- Left half image -->
+    <section class="left-panel" aria-label="Profile image">
+        <div class="profile-image"></div>
+      </section>      
+
+    <!-- Right half content -->
+    <section class="right-panel">
+      <h1 class="name">Aisha Nomani</h1>
+
+      <div class="bio">
+        <p>Hi everyone!</p>
+      
+        <p>
+          I’m Aisha Nomani, a Finance and Artificial Intelligence & Business Analytics
+          double major at the University of South Florida, graduating in August 2026.
+        </p>
+      
+        <p>
+          This website serves as a portfolio of some of my work in finance,
+          data analytics, and AI. The projects featured here demonstrate my ability to analyze 
+          data, build insights, and apply technical tools to solve real world financial and business problems.
+        </p>
+      
+        <p>
+          Feel free to explore my website and connect with me on LinkedIn.
+        </p>
+      </div>
+
+      <!-- Bottom-right contact -->
+      <div class="contact-wrap">
+        <button class="contact-btn" type="button" id="contactBtn" aria-expanded="false" aria-controls="contactCard">
+          Contact Me
+        </button>
+
+        <div class="contact-card" id="contactCard" hidden>
+          <div class="contact-title">Contact</div>
+          <div class="contact-item">
+            <span class="label">Email:</span>
+            <a href="mailto:aisha.tampa@gmail.com">aisha.tampa@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <span class="label">Phone:</span>
+            <a href="tel:+18136481989">+1 (813) 648-1989</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const btn = document.getElementById('contactBtn');
+    const card = document.getElementById('contactCard');
+
+    btn.addEventListener('click', () => {
+      const isOpen = !card.hasAttribute('hidden');
+      if (isOpen) {
+        card.setAttribute('hidden', '');
+        btn.setAttribute('aria-expanded', 'false');
+      } else {
+        card.removeAttribute('hidden');
+        btn.setAttribute('aria-expanded', 'true');
+      }
+    });
+
+    document.addEventListener('click', (e) => {
+      const wrap = document.querySelector('.contact-wrap');
+      if (!wrap.contains(e.target)) {
+        card.setAttribute('hidden', '');
+        btn.setAttribute('aria-expanded', 'false');
+      }
+    });
+  </script>
+</body>
+</html>

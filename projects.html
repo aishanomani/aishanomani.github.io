@@ -25,30 +25,34 @@
     <h1 class="projects-title">Projects</h1>
 
     <div class="project-card">
-        <h2>1. Loan Default Prediction – Data Analysis & Modeling</h2>
+        <h2>1. Loan Default Risk Model - Heritage Credit Union</h2>
       
         <p class="project-desc">
-          Conducted a thorough analysis to predict loan default risk using historical
-          borrower data. Performed exploratory data analysis to discover key patterns and
-          potential risk drivers, as well as customer segmentation using k-Means clustering.
-          Developed and evaluated predictive models using decision trees and neural
-          networks then selected the best performing model.
+          Developed a cost-sensitive binary classification model to assess loan default risk 
+          using historical borrower data. Conducted exploratory data analysis and feature engineering 
+          to identify key risk drivers, then trained and compared multiple models including logistic 
+          regression, decision trees, random forest, and gradient boosting using cross-validation. 
+          Optimized the classification threshold based on business cost trade-offs (FN vs. FP) to 
+          minimize total financial loss and align with underwriting capacity. Final model supports 
+          risk-based loan review decisions and is projected to reduce annual default losses by 
+          approximately $450K.
         </p>
       
         <p class="project-meta">
-          <strong>Tools:</strong> Python, Pandas, scikit-learn, k-Means, Decision Trees,
-          Neural Networks
+          <strong>Tools:</strong> Python, Pandas, scikit-learn, Logistic Regression, 
+          Decision Trees, Random Forest, Gradient Boosting, Cross-Validation
         </p>
       
         <div class="project-links">
           <a class="chip"
-             href="https://colab.research.google.com/drive/1YN2NcxhGYS1uTpIR65ipHhsezv1HUygc?usp=sharing"
+             href="https://github.com/aishanomani/The_Backside_Undergrads_Final"
              target="_blank"
              rel="noopener">
             Project
           </a>
         </div>
-      </div>     
+      </div> 
+ 
 
       <div class="project-card">
         <h2>2. Demo AI Image Authenticity Detector</h2>
@@ -73,57 +77,30 @@
           </a>
         </div>
       </div> 
-      
-      <div class="project-card">
-        <h2>3. Business Performance – Data Analysis & Modeling</h2>
-      
-        <p class="project-desc">
-          Analyzed multidimensional business performance data to evaluate sales,
-          profitability, market share, and employee productivity across products and
-          regions. Performed revenue and margin analysis, target vs actual
-          comparisons, and regional performance benchmarking. Built dynamic Excel
-          models to support pricing optimization, profitability analysis, and
-          scenario based decision making, turning quantitative results into
-          business insights and even recommendations.
-        </p>
-      
-        <p class="project-meta">
-          <strong>Tools:</strong> Microsoft Excel, Data Modeling, Financial Analysis,
-          Scenario Analysis
-        </p>
 
-        <div class="project-links">
-          <a class="chip"
-             href="https://drive.google.com/drive/folders/12YBCyBtMfZx2kPr248HNk9tqJ3Au-kAU?usp=share_link"
-             target="_blank"
-             rel="noopener">
-            Project
-          </a>
-        </div>
-      </div> 
-      
-      <div class="project-card">
-        <h2>4. Database Design and SQL Implementation</h2>
+<div class="project-card">
+        <h2>3. Distributed Data Pipeline & Scalable Data Architecture (ETL, Sharding & Cassandra)</h2>
       
         <p class="project-desc">
-          Designed and implemented a normalized relational database for a fictional
-          makeup store business to support customer, product, and order management.
-          Developed a complete database schema in third normal form (3NF) and created
-          an Entity-Relationship Diagram (ERD) to clearly define entities, attributes,
-          keys, and relationships. Implemented and tested complex SQL queries to
-          perform full CRUD operations and advanced analytical queries, including
-          customer behavior analysis, sales performance reporting, ranking, and
-          cumulative metrics to help make better decisions.
+          Designed and implemented a scalable data pipeline integrating multiple operational 
+          databases into a centralized data warehouse. Built and deployed an automated ETL 
+          process using Docker to extract, transform, and load data from distributed 
+          PostgreSQL systems, including sharded sales databases. Enhanced the pipeline to
+          merge data across shards and ensure consistency across sources. Extended the 
+          architecture with Cassandra to support high-performance, query-specific data 
+          access patterns using denormalized models. Evaluated distributed SQL solutions 
+          such as Citus to improve scalability, real-time analytics, and overall system 
+          performance.
         </p>
       
         <p class="project-meta">
-          <strong>Tools:</strong> SQL, Database Design, ERD Modeling, Normalization,
-          Microsoft SQL Server
+          <strong>Tools:</strong> SQL, PostgreSQL, Cassandra, Docker, 
+          ETL Pipelines, Python, Data Warehousing, Distributed Systems
         </p>
-       
+      
         <div class="project-links">
           <a class="chip"
-             href="https://drive.google.com/drive/folders/1UyOpwhJ19vcttG8y_OnLepCuPEcsJjvK?usp=share_link"
+             href="https://github.com/aishanomani/The_Leftside_Undergrads_Midterm"
              target="_blank"
              rel="noopener">
             Project
@@ -132,7 +109,7 @@
       </div> 
     
       <div class="project-card">
-        <h2>5. Optimization of Retail Performance – Business Analytics & Visualization</h2>
+        <h2>4. Optimization of Retail Performance – Business Analytics & Visualization</h2>
       
         <p class="project-desc">
           Analyzed a large retail transaction dataset to uncover sales trends,
@@ -162,7 +139,7 @@
       </div> 
 
       <div class="project-card">
-        <h2>6. Vehicle Pricing Analysis Across Regions & Engine Types (R)</h2>
+        <h2>5. Vehicle Pricing Analysis Across Regions & Engine Types (R)</h2>
       
         <p class="project-desc">
           Performed a statistical analysis on used vehicle pricing data to
@@ -188,30 +165,54 @@
           </a>
         </div>
       </div> 
-
-      <div class="project-card">
-        <h2>7. Distributed Data Pipeline & Scalable Data Architecture (ETL, Sharding & Cassandra)</h2>
+    
+       <div class="project-card">
+        <h2>6. Business Performance – Data Analysis & Modeling</h2>
       
         <p class="project-desc">
-          Designed and implemented a scalable data pipeline integrating multiple operational 
-          databases into a centralized data warehouse. Built and deployed an automated ETL 
-          process using Docker to extract, transform, and load data from distributed 
-          PostgreSQL systems, including sharded sales databases. Enhanced the pipeline to
-          merge data across shards and ensure consistency across sources. Extended the 
-          architecture with Cassandra to support high-performance, query-specific data 
-          access patterns using denormalized models. Evaluated distributed SQL solutions 
-          such as Citus to improve scalability, real-time analytics, and overall system 
-          performance.
+          Analyzed multidimensional business performance data to evaluate sales,
+          profitability, market share, and employee productivity across products and
+          regions. Performed revenue and margin analysis, target vs actual
+          comparisons, and regional performance benchmarking. Built dynamic Excel
+          models to support pricing optimization, profitability analysis, and
+          scenario based decision making, turning quantitative results into
+          business insights and even recommendations.
         </p>
       
         <p class="project-meta">
-          <strong>Tools:</strong> SQL, PostgreSQL, Cassandra, Docker, 
-          ETL Pipelines, Python, Data Warehousing, Distributed Systems
+          <strong>Tools:</strong> Microsoft Excel, Data Modeling, Financial Analysis,
+          Scenario Analysis
+        </p>
+
+        <div class="project-links">
+          <a class="chip"
+             href="https://drive.google.com/drive/folders/12YBCyBtMfZx2kPr248HNk9tqJ3Au-kAU?usp=share_link"
+             target="_blank"
+             rel="noopener">
+            Project
+          </a>
+        </div>
+      </div> 
+  
+       <div class="project-card">
+        <h2>7. Loan Default Prediction – Data Analysis & Modeling</h2>
+      
+        <p class="project-desc">
+          Conducted a thorough analysis to predict loan default risk using historical
+          borrower data. Performed exploratory data analysis to discover key patterns and
+          potential risk drivers, as well as customer segmentation using k-Means clustering.
+          Developed and evaluated predictive models using decision trees and neural
+          networks then selected the best performing model.
+        </p>
+      
+        <p class="project-meta">
+          <strong>Tools:</strong> Python, Pandas, scikit-learn, k-Means, Decision Trees,
+          Neural Networks
         </p>
       
         <div class="project-links">
           <a class="chip"
-             href="https://github.com/aishanomani/The_Leftside_Undergrads_Midterm"
+             href="https://colab.research.google.com/drive/1YN2NcxhGYS1uTpIR65ipHhsezv1HUygc?usp=sharing"
              target="_blank"
              rel="noopener">
             Project
@@ -219,28 +220,28 @@
         </div>
       </div>     
 
-  <div class="project-card">
-        <h2>8. Loan Default Risk Model - Heritage Credit Union</h2>
+      <div class="project-card">
+        <h2>8. Database Design and SQL Implementation</h2>
       
         <p class="project-desc">
-          Developed a cost-sensitive binary classification model to assess loan default risk 
-          using historical borrower data. Conducted exploratory data analysis and feature engineering 
-          to identify key risk drivers, then trained and compared multiple models including logistic 
-          regression, decision trees, random forest, and gradient boosting using cross-validation. 
-          Optimized the classification threshold based on business cost trade-offs (FN vs. FP) to 
-          minimize total financial loss and align with underwriting capacity. Final model supports 
-          risk-based loan review decisions and is projected to reduce annual default losses by 
-          approximately $450K.
+          Designed and implemented a normalized relational database for a fictional
+          makeup store business to support customer, product, and order management.
+          Developed a complete database schema in third normal form (3NF) and created
+          an Entity-Relationship Diagram (ERD) to clearly define entities, attributes,
+          keys, and relationships. Implemented and tested complex SQL queries to
+          perform full CRUD operations and advanced analytical queries, including
+          customer behavior analysis, sales performance reporting, ranking, and
+          cumulative metrics to help make better decisions.
         </p>
       
         <p class="project-meta">
-          <strong>Tools:</strong> Python, Pandas, scikit-learn, Logistic Regression, 
-          Decision Trees, Random Forest, Gradient Boosting, Cross-Validation
+          <strong>Tools:</strong> SQL, Database Design, ERD Modeling, Normalization,
+          Microsoft SQL Server
         </p>
-      
+       
         <div class="project-links">
           <a class="chip"
-             href="https://github.com/aishanomani/The_Backside_Undergrads_Final"
+             href="https://drive.google.com/drive/folders/1UyOpwhJ19vcttG8y_OnLepCuPEcsJjvK?usp=share_link"
              target="_blank"
              rel="noopener">
             Project

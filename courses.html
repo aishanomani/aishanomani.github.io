@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Courses | Aisha Nomani</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./main.js"></script>
+
+</head>
+
+<body>
+  <!-- Top tabs -->
+  <header class="topbar">
+    <nav class="nav">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="Aisha Nomani - Resume.pdf" class="nav-link" target="_blank" rel="noopener">Resume</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="courses.html" class="nav-link">Courses</a>
+      <a href="awards.html" class="nav-link">Awards & Certifications</a>
+      <a href="https://github.com/aishanomani" class="nav-link" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/aisha-nomani" class="nav-link" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+  </header>
+
+  <main class="courses">
+    <h1 class="projects-title">Courses</h1>
+
+    <!-- GPA -->
+    <section class="gpa-card" aria-label="GPA">
+      <div class="gpa-label">GPA</div>
+      <p class="gpa-value">3.87</p>
+    
+      <button class="view-courses-link" onclick="toggleCourses()">
+        View Courses by Semester ↓
+      </button>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <!-- ================= KEY COURSES ================= -->
+<section class="course-card key-courses">
+  <h2 class="term-title">Key Courses</h2>
+
+  <div class="key-courses-grid">
+
+    <div class="key-course-card">
+    <h3><a href="Big Data for AI and Analytics Syllabus.pdf" target="_blank">Big Data for AI & Analytics</a></h3>
+    <p class="course-desc">
+      Focuses on managing, processing, and analyzing large-scale business data to support data-driven decision-making. Emphasizes hands-on experience with modern tools and techniques for working with complex and high-volume datasets.
+    </p>
+    <p class="course-tech"><strong>Technologies:</strong> RDBMS, SQL, PostgreSQL, NoSQL, Python, Jupyter Notebooks, Hadoop, MapReduce, Spark, Docker, Git, Github, Terminal</p>
+  </div>
+
+   <div class="key-course-card">
+    <h3><a href="Applied Data Science Syllabus.pdf" target="_blank">Applied Data Science</a></h3>
+    <p class="course-desc">
+      Machine learning with a focus on practical business applications, including problem framing, data preparation, model building, and evaluation. Emphasizes using AI-assisted coding tools to develop, validate, and communicate data-driven insights effectively.
+    </p>
+    <p class="course-tech"><strong>Technologies:</strong> Python, Google Colab</p>
+  </div>
+
+    <div class="key-course-card">
+    <h3><a href="Data Visualization Syllabus.pdf" target="_blank">Data Visualization</a></h3>
+    <p class="course-desc">
+      Focuses on designing and creating effective data visualizations to communicate insights and support data-driven decision-making. Emphasizes visualization principles, storytelling, and the use of tools to present data clearly and accurately.
+    </p>
+    <p class="course-tech"><strong>Technologies:</strong> Tableau, Power BI, Microsoft Excel, Qlik, Python, Jupyter Notebooks, R, RStudio</p>
+  </div>
+
+    <div class="key-course-card">
+    <h3><a href="Data Mining and Predictive Analytics Syllabus.pdf" target="_blank">Data Mining & Predictive Analytics</a></h3>
+    <p class="course-desc">
+      Covers fundamental data mining and machine learning techniques used to analyze data and support predictive, data-driven decision-making in business. Focuses on applying core data science concepts to solve real-world business problems and generate actionable insights.
+    </p>
+    <p class="course-tech"><strong>Technologies:</strong> Python, Google Colab</p>
+  </div>
+
+    <div class="key-course-card">
+    <h3><a href="Business Application Development Syllabus.pdf" target="_blank">Business Application Development</a></h3>
+    <p class="course-desc">
+      Business application development with a focus on designing and building software solutions to solve real-world business problems. Emphasizes programming fundamentals, object-oriented concepts, and hands-on experience developing and deploying applications.
+    </p>
+    <p class="course-tech"><strong>Technologies:</strong> Tableau, Javascript, HTML, CSS, Git, Github</p>
+  </div>
+
+    <div class="key-course-card">
+    <h3><a href="Python for BA Syllabus.pdf" target="_blank">Python for Business Analytics</a></h3>
+    <p class="course-desc">
+      Python programming with a focus on practical business applications, including data manipulation and analysis. Emphasizes hands-on learning to solve real-world business problems using programming techniques.
+    </p>
+    <p class="course-tech"><strong>Technologies:</strong> Python</p>
+  </div>
+
+    <div class="key-course-card">
+    <h3><a href="AI and Analytics Syllabus.pdf" target="_blank">AI & Analytics</a></h3>
+    <p class="course-desc">
+      Covers the use of AI and analytics to support data-driven business decision-making across various functional areas. Focuses on applying analytical methods, data visualization, and predictive techniques to generate insights and communicate results effectively.
+    </p>
+    <p class="course-tech"><strong>Technologies:</strong> Tableau, Python, Google Colab</p>
+  </div>
+
+    <div class="key-course-card">
+    <h3><a href="Statistical Programming for BA Syllabus.pdf" target="_blank">Statistical Programming</a></h3>
+    <p class="course-desc">
+      Builds on foundational statistics and introduces statistical programming for data analysis and interpretation. Focuses on applying inferential methods, regression techniques, and data visualization to support data-driven decision-making.
+    </p>
+    <p class="course-tech"><strong>Technologies:</strong> Microsoft Excel, R, RStudio</p>
+  </div>
+
+    <div class="key-course-card">
+    <h3><a href="Data Modeling for BA Syllabus.pdf" target="_blank">Data Modeling for Business Analytics</a></h3>
+    <p class="course-desc">
+      Develops advanced Excel skills for analyzing data, building models, and solving business problems. Emphasizes data integration, visualization, automation, and applying analytical techniques to support decision-making.
+    </p>
+    <p class="course-tech"><strong>Technologies:</strong> Microsoft Excel</p>
+  </div>
+
+</div>
+</section>
+
+<!-- DIVIDER -->
+<div class="section-divider"></div>
+
+<div id="all-courses" class="hidden-courses">
+    <!-- SUMMER 2026 -->
+    <section class="term-card">
+      <h2 class="term-title">SUMMER 2026</h2>
+      <p class="term-subtitle">In Progress Work</p>
+
+      <table class="term-table" aria-label="Summer 2026 Courses">
+        <thead>
+          <tr>
+            <th class="col-subject">Subject</th>
+            <th class="col-number">Course</th>
+            <th class="col-title">Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="col-subject">FIN</td><td class="col-number">4443</td><td class="col-title">Financial Policies &amp; Strategies</td></tr>
+          <tr><td class="col-subject">GEB</td><td class="col-number">4890</td><td class="col-title">Strategic Management &amp; Decision Making</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+<!-- SPRING 2026 -->
+<section class="term-card">
+  <h2 class="term-title">SPRING 2026</h2>
+
+  <table class="term-table" aria-label="Spring 2026 Courses">
+    <thead>
+      <tr>
+        <th class="col-subject">Subject</th>
+        <th class="col-number">Course</th>
+        <th class="col-title">Title</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="col-subject">FIN</td><td class="col-number">4514</td><td class="col-title">Advanced Investment Analysis &amp; Management</td></tr>
+      <tr><td class="col-subject">ISM</td><td class="col-number">4543</td><td class="col-title">Applied Data Science</td></tr>
+      <tr><td class="col-subject">ISM</td><td class="col-number">4545</td><td class="col-title">Big Data for AI &amp; Analytics</td></tr>
+      <tr><td class="col-subject">ISM</td><td class="col-number">4930</td><td class="col-title">Data Visualization</td></tr>
+      <tr><td class="col-subject">GEY</td><td class="col-number">2000</td><td class="col-title">Introduction to Aging Sciences</td></tr>
+    </tbody>
+  </table>
+</section>
+
+    <!-- FALL 2025 -->
+    <section class="term-card">
+      <h2 class="term-title">FALL 2025</h2>
+
+      <table class="term-table" aria-label="Fall 2025 Courses">
+        <thead>
+          <tr>
+            <th class="col-subject">Subject</th>
+            <th class="col-number">Course</th>
+            <th class="col-title">Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="col-subject">ISM</td><td class="col-number">4541</td><td class="col-title">Data Mining &amp; Predictive Analytics</td></tr>
+          <tr><td class="col-subject">ISM</td><td class="col-number">4542</td><td class="col-title">Statistical Programming for BA</td></tr>
+          <tr><td class="col-subject">ISM</td><td class="col-number">4547</td><td class="col-title">Excel/Data Model Business Analytics</td></tr>
+          <tr><td class="col-subject">RMI</td><td class="col-number">3004</td><td class="col-title">Principles of Risk Management</td></tr>
+          <tr><td class="col-subject">ARC</td><td class="col-number">2211</td><td class="col-title">Intro to Architecture</td></tr>
+          <tr><td class="col-subject">CCJ</td><td class="col-number">3075</td><td class="col-title">Intro to Cybercrime</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- SUMMER 2025 -->
+    <section class="term-card">
+      <h2 class="term-title">SUMMER 2025</h2>
+
+      <table class="term-table" aria-label="Summer 2025 Courses">
+        <thead>
+          <tr>
+            <th class="col-subject">Subject</th>
+            <th class="col-number">Course</th>
+            <th class="col-title">Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="col-subject">FIN</td><td class="col-number">3604</td><td class="col-title">International Finance</td></tr>
+          <tr><td class="col-subject">GEB</td><td class="col-number">3033</td><td class="col-title">Business Skills &amp; Practices</td></tr>
+          <tr><td class="col-subject">ISM</td><td class="col-number">4212</td><td class="col-title">Database Design &amp; Administration</td></tr>
+          <tr><td class="col-subject">ISM</td><td class="col-number">4641</td><td class="col-title">Python for Business Analytics</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- SPRING 2025 -->
+    <section class="term-card">
+      <h2 class="term-title">SPRING 2025</h2>
+
+      <table class="term-table" aria-label="Spring 2025 Courses">
+        <thead>
+          <tr>
+            <th class="col-subject">Subject</th>
+            <th class="col-number">Course</th>
+            <th class="col-title">Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="col-subject">CAI</td><td class="col-number">3801</td><td class="col-title">AI &amp; Analytics</td></tr>
+          <tr><td class="col-subject">FIN</td><td class="col-number">4453</td><td class="col-title">Fin. Modeling &amp; Analytics</td></tr>
+          <tr><td class="col-subject">FIN</td><td class="col-number">4461</td><td class="col-title">Financial Statement Analysis</td></tr>
+          <tr><td class="col-subject">ISM</td><td class="col-number">3232</td><td class="col-title">Business Application Development</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- FALL 2024 -->
+    <section class="term-card">
+      <h2 class="term-title">FALL 2024</h2>
+
+      <table class="term-table" aria-label="Fall 2024 Courses">
+        <thead>
+          <tr>
+            <th class="col-subject">Subject</th>
+            <th class="col-number">Course</th>
+            <th class="col-title">Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="col-subject">FIN</td><td class="col-number">3233</td><td class="col-title">Money &amp; Banking</td></tr>
+          <tr><td class="col-subject">FIN</td><td class="col-number">4504</td><td class="col-title">Principles of Investments</td></tr>
+          <tr><td class="col-subject">ISM</td><td class="col-number">3113</td><td class="col-title">Systems Analysis &amp; Design</td></tr>
+          <tr><td class="col-subject">MAN</td><td class="col-number">4504</td><td class="col-title">Operations &amp; Supply Chain Mgmt</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- SUMMER 2024 -->
+    <section class="term-card">
+      <h2 class="term-title">SUMMER 2024</h2>
+
+      <table class="term-table" aria-label="Summer 2024 Courses">
+        <thead>
+          <tr>
+            <th class="col-subject">Subject</th>
+            <th class="col-number">Course</th>
+            <th class="col-title">Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="col-subject">FIN</td><td class="col-number">3403</td><td class="col-title">Principles of Finance</td></tr>
+          <tr><td class="col-subject">MAR</td><td class="col-number">3023</td><td class="col-title">Basic Marketing</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- SPRING 2024 -->
+    <section class="term-card">
+      <h2 class="term-title">SPRING 2024</h2>
+
+      <table class="term-table" aria-label="Spring 2024 Courses">
+        <thead>
+          <tr>
+            <th class="col-subject">Subject</th>
+            <th class="col-number">Course</th>
+            <th class="col-title">Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="col-subject">ACG</td><td class="col-number">2071</td><td class="col-title">Principles of Managerial Accounting</td></tr>
+          <tr><td class="col-subject">ANT</td><td class="col-number">2410</td><td class="col-title">Cultural Anthropology</td></tr>
+          <tr><td class="col-subject">BUL</td><td class="col-number">3320</td><td class="col-title">Law &amp; Business I</td></tr>
+          <tr><td class="col-subject">MAN</td><td class="col-number">3025</td><td class="col-title">Principles of Management</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- FALL 2023 -->
+    <section class="term-card">
+      <h2 class="term-title">FALL 2023</h2>
+
+      <table class="term-table" aria-label="Fall 2023 Courses">
+        <thead>
+          <tr>
+            <th class="col-subject">Subject</th>
+            <th class="col-number">Course</th>
+            <th class="col-title">Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="col-subject">ACG</td><td class="col-number">2021</td><td class="col-title">Principles of Financial Accounting</td></tr>
+          <tr><td class="col-subject">AMH</td><td class="col-number">2020</td><td class="col-title">American History II</td></tr>
+          <tr><td class="col-subject">ENC</td><td class="col-number">3250</td><td class="col-title">Professional Writing</td></tr>
+          <tr><td class="col-subject">ISM</td><td class="col-number">3011</td><td class="col-title">Information Systems in Organizations</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- SUMMER 2023 -->
+    <section class="term-card">
+      <h2 class="term-title">SUMMER 2023</h2>
+
+      <table class="term-table" aria-label="Summer 2023 Courses">
+        <thead>
+          <tr>
+            <th class="col-subject">Subject</th>
+            <th class="col-number">Course</th>
+            <th class="col-title">Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="col-subject">ANT</td><td class="col-number">3101</td><td class="col-title">Archaeology</td></tr>
+          <tr><td class="col-subject">QMB</td><td class="col-number">3200</td><td class="col-title">Business &amp; Economic Statistics II</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- SPRING 2023 -->
+    <section class="term-card">
+      <h2 class="term-title">SPRING 2023</h2>
+
+      <table class="term-table" aria-label="Spring 2023 Courses">
+        <thead>
+          <tr>
+            <th class="col-subject">Subject</th>
+            <th class="col-number">Course</th>
+            <th class="col-title">Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="col-subject">BSC</td><td class="col-number">1005</td><td class="col-title">Biological Prin For Non-Majors</td></tr>
+          <tr><td class="col-subject">CGS</td><td class="col-number">2100</td><td class="col-title">Computers In Business</td></tr>
+          <tr><td class="col-subject">ENC</td><td class="col-number">1102</td><td class="col-title">Composition II</td></tr>
+          <tr><td class="col-subject">SPC</td><td class="col-number">2608</td><td class="col-title">Public Speaking</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- FALL 2022 -->
+    <section class="term-card">
+      <h2 class="term-title">FALL 2022</h2>
+
+      <table class="term-table" aria-label="Fall 2022 Courses">
+        <thead>
+          <tr>
+            <th class="col-subject">Subject</th>
+            <th class="col-number">Course</th>
+            <th class="col-title">Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="col-subject">ECO</td><td class="col-number">2013</td><td class="col-title">Economic Princples (Macroeconomics)</td></tr>
+          <tr><td class="col-subject">ENC</td><td class="col-number">1101</td><td class="col-title">Composition I</td></tr>
+          <tr><td class="col-subject">HUM</td><td class="col-number">1020</td><td class="col-title">Introduction to Humanities</td></tr>
+          <tr><td class="col-subject">MAC</td><td class="col-number">2233</td><td class="col-title">Business Calculus</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- SUMMER 2022 -->
+    <section class="term-card">
+      <h2 class="term-title">SUMMER 2022</h2>
+
+      <table class="term-table" aria-label="Summer 2022 Courses">
+        <thead>
+          <tr>
+            <th class="col-subject">Subject</th>
+            <th class="col-number">Course</th>
+            <th class="col-title">Title</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td class="col-subject">ECO</td><td class="col-number">2023</td><td class="col-title">Microeconomic Principles</td></tr>
+          <tr><td class="col-subject">STA</td><td class="col-number">2023</td><td class="col-title">Introductory Statistics I</td></tr>
+        </tbody>
+      </table>
+    </section>
+  </div>
+
+  </main>
+
+  <script>
+    function toggleCourses() {
+      const courses = document.getElementById("all-courses");
+      const button = document.querySelector(".view-courses-link");
+  
+      courses.classList.toggle("show");
+  
+      if (courses.classList.contains("show")) {
+        button.textContent = "Hide Courses by Semester ↑";
+        courses.scrollIntoView({ behavior: "smooth" });
+      } else {
+        button.textContent = "View Courses by Semester ↓";
+      }
+    }
+  </script>
+
+</body>
+</html>
+

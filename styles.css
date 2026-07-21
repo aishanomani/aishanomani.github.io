@@ -106,52 +106,43 @@ body > * {
   min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  align-items: start;
+  gap: 40px;
 }
 
 .left-panel {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 120px 24px 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 24px 56px;
 }
 
 .image-stack {
-  position: relative;
-  width: 500px;
-  height: 520px;
+    width: min(82%, 440px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
 }
 
 .profile-image {
-  position: absolute;
-  width: 330px;
-  aspect-ratio: 4 / 5;
-  background-size: cover;
-  background-position: center;
-  border-radius: var(--radius);
-  border: 3px solid var(--accent-pink);
-  box-shadow: var(--shadow);
-  transition: transform 0.25s ease;
+    width: 75%;
+    height: auto;
+    display: block;
+
+    border: 3px solid var(--accent-pink);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+
+    object-fit: contain;
 }
 
-.profile-image:hover {
-  transform: scale(1.03);
-}
-
-/* Top image */
 .image-top {
-  background-image: url("image1.jpg");
-  top: 0;
-  left: 0;
-  z-index: 2;
+    margin-left: 0;
 }
 
-/* Bottom image */
 .image-bottom {
-  background-image: url("image2.jpg");
-  top: 170px;
-  left: 120px;
-  z-index: 1;
+    margin-left: 25%;
 }
 
 .right-panel {

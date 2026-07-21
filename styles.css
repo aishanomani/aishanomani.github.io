@@ -106,43 +106,18 @@ body > * {
   min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: start;
-  gap: 40px;
-}
-
-.left-panel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 120px 24px 56px;
-}
-
-.image-stack {
-    width: min(82%, 440px);
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 24px;
+  align-items: center;
 }
 
 .profile-image {
-    width: 75%;
-    height: auto;
-    display: block;
-
-    border: 3px solid var(--accent-pink);
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
-
-    object-fit: contain;
-}
-
-.image-top {
-    margin-left: 0;
-}
-
-.image-bottom {
-    margin-left: 25%;
+  width: min(82%, 440px);
+  aspect-ratio: 4 / 3;
+  background-image: url("image.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: var(--radius);
+  border: 3px solid var(--accent-pink);
+  box-shadow: var(--shadow);
 }
 
 .right-panel {

@@ -117,10 +117,11 @@ body > * {
 }
 
 .profile-image {
-  width: min(82%, 440px);
+  width: min(100%, 560px);   
   aspect-ratio: 4 / 3;
   background-image: url("image.jpg");
-  background-size: cover;
+  background-size: contain;  
+  background-repeat: no-repeat;
   background-position: center;
   border-radius: var(--radius);
   border: 3px solid var(--accent-pink);

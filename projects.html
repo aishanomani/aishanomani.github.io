@@ -1,365 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Projects | Aisha Nomani</title>
-  <link rel="stylesheet" href="./styles.css">
-  <script src="./main.js"></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Projects | Aisha Nomani</title>
+<meta name="description" content="AI, data engineering, visualization and finance projects by Aisha Nomani.">
+<meta property="og:title" content="Projects | Aisha Nomani">
+<meta property="og:description" content="AI, data engineering, visualization and finance projects by Aisha Nomani.">
+<meta name="theme-color" content="#0a0608">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+<div class="backdrop" aria-hidden="true">
+<svg viewBox="0 0 1440 1000" preserveAspectRatio="xMidYMid slice">
+  <path class="ribbon soft" d="M-80 140 C 260 40, 160 420, 60 560 S 220 980, -60 1060"/>
+  <path class="ribbon mid" d="M-60 120 C 250 30, 170 400, 70 560 S 240 960, -40 1080"/>
+  <path class="ribbon fine" d="M-30 180 C 230 90, 120 420, 30 600 S 200 980, -20 1060"/>
+  <path class="ribbon fine" d="M-90 90 C 300 10, 210 380, 110 520 S 260 940, -90 1040"/>
+  <path class="ribbon soft" d="M1520 -40 C 1180 80, 1420 300, 1360 470 S 1150 760, 1500 1020"/>
+  <path class="ribbon mid" d="M1500 -60 C 1170 60, 1400 300, 1350 480 S 1160 780, 1480 1040"/>
+  <path class="ribbon fine" d="M1480 -20 C 1200 100, 1440 320, 1390 470 S 1190 770, 1520 1000"/>
+  <path class="ribbon fine" d="M1530 10 C 1150 130, 1380 340, 1320 500 S 1130 800, 1460 1060"/>
+</svg>
+<div class="sparkles"></div>
+</div>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<linearGradient id="tBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbeef1"/><stop offset="1" stop-color="#e3bcc5"/></linearGradient>
+<radialGradient id="tBall" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#fff8fa"/><stop offset=".6" stop-color="#f1d2d9"/><stop offset="1" stop-color="#d9a9b5"/></radialGradient>
+<linearGradient id="tBar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fdf3f5"/><stop offset="1" stop-color="#e2b6c0"/></linearGradient>
+<linearGradient id="tShadow" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#b9808f" stop-opacity=".28"/><stop offset="1" stop-color="#b9808f" stop-opacity="0"/></linearGradient>
+</defs></svg>
+<div class="frame">
+<header class="hero compact">
+  <nav class="nav" aria-label="Main">
+    <button class="nav-toggle" aria-expanded="false" aria-controls="navlinks">Menu</button>
+    <div class="nav-links" id="navlinks"><a href="index.html">Home</a><a href="projects.html" aria-current="page">Projects</a><a href="courses.html">Courses</a><a href="awards.html">Awards &amp; Certifications</a><a href="links.html">Links</a><a href="files/aisha-nomani-resume.pdf" target="_blank" rel="noopener">Résumé</a></div>
+    <div class="contact-wrap">
+      <button class="btn sm" id="contactBtn" aria-expanded="false" aria-controls="contactCard">Contact</button>
+      <div class="contact-card" id="contactCard" hidden>
+        <dl>
+          <div><dt>Email</dt><dd><a href="mailto:aisha.nomani@gmail.com">aisha.nomani@gmail.com</a></dd></div>
+          <div><dt>Phone</dt><dd><a href="tel:+18136481989">+1 (813) 648-1989</a></dd></div>
+          <div><dt>Profiles</dt><dd><a href="https://linkedin.com/in/aisha-nomani" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://github.com/aishanomani" target="_blank" rel="noopener">GitHub</a></dd></div>
+        </dl>
+      </div>
+    </div>
+  </nav>
+  <div class="hero-body">
+    <div>
+      <p class="eyebrow">Portfolio</p>
+      <h1>Selected <em>projects.</em></h1>
+      <p class="lede">A collection of publications, academic research, coursework, and self-initiated projects.</p>
 
-  <header class="topbar">
-    <nav class="nav">
-      <a href="index.html" class="nav-link">Home</a>
-      <a href="Aisha Nomani - Resume.pdf" class="nav-link" target="_blank" rel="noopener">Resume</a>
-      <a href="projects.html" class="nav-link">Projects</a>
-      <a href="courses.html" class="nav-link">Courses</a>
-      <a href="awards.html" class="nav-link">Awards & Certifications</a>
-      <a href="https://github.com/aishanomani" class="nav-link" target="_blank" rel="noopener">GitHub</a>
-      <a href="https://linkedin.com/in/aisha-nomani" class="nav-link" target="_blank" rel="noopener">LinkedIn</a>
-      <a href="https://atlasehr.org" class="nav-link" target="_blank" rel="noopener">Atlas</a>
-    </nav>
-  </header>
-
-  <main class="projects">
-    <h1 class="projects-title">Projects</h1>
-
-    <div class="project-card">
-        <h2>1. Loan Default Risk Model - Heritage Credit Union</h2>
-      
-        <p class="project-desc">
-          Developed a cost-sensitive binary classification model to assess loan default risk 
-          using historical borrower data. Conducted exploratory data analysis and feature engineering 
-          to identify key risk drivers, then trained and compared multiple models including logistic 
-          regression, decision trees, random forest, and gradient boosting using cross-validation. 
-          Optimized the classification threshold based on business cost trade-offs (FN vs. FP) to 
-          minimize total financial loss and align with underwriting capacity. Final model supports 
-          risk-based loan review decisions and is projected to reduce annual default losses by 
-          approximately $450K.
-        </p>
-      
-        <p class="project-meta">
-          <strong>Tools:</strong> Python, Pandas, scikit-learn, Logistic Regression, 
-          Decision Trees, Random Forest, Gradient Boosting, Cross-Validation
-        </p>
-      
-        <div class="project-links">
-          <a class="chip"
-             href="https://github.com/aishanomani/The_Backside_Undergrads_Final"
-             target="_blank"
-             rel="noopener">
-            Project
-          </a>
-        </div>
-      </div> 
-
-      <div class="project-card">
-        <h2>2. Demo AI Image Authenticity Detector</h2>
-      
-        <p class="project-desc">
-          Developed a demo interactive AI powered web application that allows users to upload 
-          images and evaluate the likelihood that the content was AI generated or digitally manipulated.
-          Designed a user-friendly interface with image processing and analysis output. Focused on usability 
-          and practical application of AI concepts to address real world concerns around deepfakes and falsified media.
-        </p>
-      
-        <p class="project-meta">
-          <strong>Tools:</strong> HTML, CSS, JavaScript, AI Concepts, Image Analysis
-        </p>
-       
-        <div class="project-links">
-          <a class="chip"
-             href="https://github.com/aishanomani/demo-ai-image-authenticator"
-             target="_blank"
-             rel="noopener">
-            Project
-          </a>
-        </div>
-      </div> 
-
-<div class="project-card">
-        <h2>3. PrecisionParts Manufacturing Big Data Pipeline</h2>
-      
-        <p class="project-desc">
-          Designed and implemented an end-to-end big data pipeline for a supply chain 
-          manufacturing analytics platform using Hadoop HDFS, PySpark, Kafka, Spark 
-          Structured Streaming, and Apache Airflow. Built a scalable multi-layer architecture 
-          to support batch processing, real-time machine telemetry streaming, workflow 
-          orchestration, and automated data quality monitoring for PrecisionParts Manufacturing. 
-          Analyzed production defects, inventory risk, supplier performance, and equipment 
-          sensor anomalies to identify operational inefficiencies, supplier quality correlations, 
-          and predictive maintenance opportunities, delivering actionable insights to improve 
-          manufacturing reliability and supply chain performance. The project was developed 
-          collaboratively in a team environment and deployed using Docker-based infrastructure 
-          orchestration.
-        </p>
-      
-        <p class="project-meta">
-          <strong>Tools:</strong> Hadoop HDFS, PySpark, Apache Kafka, Spark Structured Streaming, Apache Airflow, Docker, Python, Big Data Analytics, Real-Time Data Processing
-        </p>
-       
-        <div class="project-links">
-          <a class="chip"
-             href="https://github.com/aishanomani/The_Leftside_Undergrads_Final"
-             target="_blank"
-             rel="noopener">
-            Project
-          </a>
-        </div>
-      </div> 
-
-      <div class="project-card">
-        <h2>4. Student Debt & Career Outcomes Research</h2>
-      
-        <p class="project-desc">
-          Developed a Tableau-based research project analyzing how student debt 
-          impacts career outcomes and return on education in the United States. 
-          Cleaned and integrated datasets from FRED, College Scorecard, BLS, and 
-          IPEDS using Tableau Prep Builder, then built interactive visualizations 
-          to examine trends in student loan growth, the relationship between debt 
-          and earnings after graduation, and wage-to-debt ratios across majors. 
-          The project also analyzed how education level affects unemployment, 
-          compared outcomes across public, private nonprofit, and for-profit 
-          institutions, evaluated returns of popular vs. less common majors, and 
-          identified the top and bottom fields by ROI. Findings show that while 
-          higher education improves earnings and employment stability, financial 
-          outcomes vary significantly by major, institution type, and debt levels.
-        </p>
-      
-        <p class="project-meta">
-          <strong>Tools:</strong> Tableau, Tableau Prep Builder, Data Cleaning, Data Visualization, Data Analysis
-        </p>
-      
-        <div class="project-links">
-          <a class="chip"
-             href="https://github.com/aishanomani/student_debt_and_career_outcomes_research_project"
-             target="_blank"
-             rel="noopener">
-            Project
-          </a>
-        </div>
-      </div> 
-
- <div class="project-card">
-        <h2>5. Distributed Data Pipeline & Scalable Data Architecture (ETL, Sharding & Cassandra)</h2>
-      
-        <p class="project-desc">
-          Designed and implemented a scalable data pipeline integrating multiple operational 
-          databases into a centralized data warehouse. Built and deployed an automated ETL 
-          process using Docker to extract, transform, and load data from distributed 
-          PostgreSQL systems, including sharded sales databases. Enhanced the pipeline to
-          merge data across shards and ensure consistency across sources. Extended the 
-          architecture with Cassandra to support high-performance, query-specific data 
-          access patterns using denormalized models. Evaluated distributed SQL solutions 
-          such as Citus to improve scalability, real-time analytics, and overall system 
-          performance.
-        </p>
-      
-        <p class="project-meta">
-          <strong>Tools:</strong> SQL, PostgreSQL, Cassandra, Docker, 
-          ETL Pipelines, Python, Data Warehousing, Distributed Systems
-        </p>
-      
-        <div class="project-links">
-          <a class="chip"
-             href="https://github.com/aishanomani/The_Leftside_Undergrads_Midterm"
-             target="_blank"
-             rel="noopener">
-            Project
-          </a>
-        </div>
-      </div> 
-    
-      <div class="project-card">
-        <h2>6. Tampa Bay Forward Magazine (The Power Broker Media Group)</h2>
-      
-        <p class="project-desc">
-          Conducted research on the Black Diaspora of Tampa Bay for the 20th Anniversary Edition of The Power Broker magazine at The Power Broker Media Group, working under Dr. Han Reichgelt and Gypsy Gallardo. Collected, cleaned, and analyzed demographic and community data to identify meaningful trends and insights related to the region’s Black population. Developed data visualizations and data-anchored storytelling to translate complex findings into clear, engaging narratives for a public audience. Contributed research, analysis, and editorial content for pages 48–51 of the anniversary edition, combining quantitative evidence with contextual research to support the magazine’s broader examination of Tampa Bay’s Black community.
-        </p>
-      
-        <p class="project-meta">
-          <strong>Tools:</strong> Tableau, Excel, Canva, Data Cleaning, Data Analysis, Data Visualization
-        </p>
-      
-        <div class="project-links">
-          <a class="chip"
-             href="https://www.flipsnack.com/56FBE87A9F7/tampa-bay-forward-by-the-power-broker-magazine-zn8yhkz4ot/full-view.html"
-             target="_blank"
-             rel="noopener">
-            Project
-          </a>
-        </div>
-      </div> 
-
-<div class="project-card">
-        <h2>7. Optimization of Retail Performance – Business Analytics & Visualization</h2>
-      
-        <p class="project-desc">
-          Analyzed a large retail transaction dataset to uncover sales trends,
-          customer behavior, and profitability drivers across products, regions,
-          and time periods. Built interactive Tableau dashboards to visualize
-          revenue performance, geographic distribution, customer segmentation,
-          and product hierarchies. Conducted diagnostic and predictive analytics,
-          including sales forecasting and what if scenario analysis to evaluate
-          the potential impact of improved customer ratings. Transformed analytical
-          findings into actionable business insights to support inventory planning,
-          marketing strategy, and revenue growth decisions.
-        </p>
-      
-        <p class="project-meta">
-          <strong>Tools:</strong> Tableau, Business Analytics, Data Visualization,
-          Forecasting, What-If Analysis
-        </p>
-      
-        <div class="project-links">
-          <a class="chip"
-             href="https://drive.google.com/drive/folders/1whCwitVZCn1H_JP4GmFka4CY9XDnlnef?usp=sharing"
-             target="_blank"
-             rel="noopener">
-            Project
-          </a>
-        </div>
-      </div> 
-    
-      <div class="project-card">
-        <h2>8. Vehicle Pricing Analysis Across Regions & Engine Types (R)</h2>
-      
-        <p class="project-desc">
-          Performed a statistical analysis on used vehicle pricing data to
-          evaluate how prices vary across geographic regions and engine types.
-          Conducted rigorous data preprocessing, random sampling, and factor conversion
-          before applying inferential statistical techniques. Used variance testing,
-          one and two way ANOVA, and post hoc Tukey comparisons to identify
-          statistically significant price differences while controlling for multiple
-          categorical factors. Interpreted results in a market and business context.
-        </p>
-      
-        <p class="project-meta">
-          <strong>Tools:</strong> R, RStudio, Statistical Analysis, ANOVA,
-          Hypothesis Testing, Data Sampling
-        </p>
-      
-        <div class="project-links">
-          <a class="chip"
-             href="https://drive.google.com/drive/folders/1gtVYwuzy9mQ-KPhC7kfJrIJG82HPXXsB?usp=sharing"
-             target="_blank"
-             rel="noopener">
-            Project
-          </a>
-        </div>
-      </div> 
-    
-       <div class="project-card">
-        <h2>9. Business Performance – Data Analysis & Modeling</h2>
-      
-        <p class="project-desc">
-          Analyzed multidimensional business performance data to evaluate sales,
-          profitability, market share, and employee productivity across products and
-          regions. Performed revenue and margin analysis, target vs actual
-          comparisons, and regional performance benchmarking. Built dynamic Excel
-          models to support pricing optimization, profitability analysis, and
-          scenario based decision making, turning quantitative results into
-          business insights and even recommendations.
-        </p>
-      
-        <p class="project-meta">
-          <strong>Tools:</strong> Microsoft Excel, Data Modeling, Financial Analysis,
-          Scenario Analysis
-        </p>
-
-        <div class="project-links">
-          <a class="chip"
-             href="https://drive.google.com/drive/folders/12YBCyBtMfZx2kPr248HNk9tqJ3Au-kAU?usp=share_link"
-             target="_blank"
-             rel="noopener">
-            Project
-          </a>
-        </div>
-      </div> 
-  
-       <div class="project-card">
-        <h2>10. Loan Default Prediction – Data Analysis & Modeling</h2>
-      
-        <p class="project-desc">
-          Conducted a thorough analysis to predict loan default risk using historical
-          borrower data. Performed exploratory data analysis to discover key patterns and
-          potential risk drivers, as well as customer segmentation using k-Means clustering.
-          Developed and evaluated predictive models using decision trees and neural
-          networks then selected the best performing model.
-        </p>
-      
-        <p class="project-meta">
-          <strong>Tools:</strong> Python, Pandas, scikit-learn, k-Means, Decision Trees,
-          Neural Networks
-        </p>
-      
-        <div class="project-links">
-          <a class="chip"
-             href="https://colab.research.google.com/drive/1YN2NcxhGYS1uTpIR65ipHhsezv1HUygc?usp=sharing"
-             target="_blank"
-             rel="noopener">
-            Project
-          </a>
-        </div>
-      </div>     
-
-      <div class="project-card">
-        <h2>11. Database Design and SQL Implementation</h2>
-      
-        <p class="project-desc">
-          Designed and implemented a normalized relational database for a fictional
-          makeup store business to support customer, product, and order management.
-          Developed a complete database schema in third normal form (3NF) and created
-          an Entity-Relationship Diagram (ERD) to clearly define entities, attributes,
-          keys, and relationships. Implemented and tested complex SQL queries to
-          perform full CRUD operations and advanced analytical queries, including
-          customer behavior analysis, sales performance reporting, ranking, and
-          cumulative metrics to help make better decisions.
-        </p>
-      
-        <p class="project-meta">
-          <strong>Tools:</strong> SQL, Database Design, ERD Modeling, Normalization,
-          Microsoft SQL Server
-        </p>
-       
-        <div class="project-links">
-          <a class="chip"
-             href="https://drive.google.com/drive/folders/1UyOpwhJ19vcttG8y_OnLepCuPEcsJjvK?usp=share_link"
-             target="_blank"
-             rel="noopener">
-            Project
-          </a>
-        </div>
-      </div> 
-    
- <div class="project-card">
-        <h2>12. AMD Stock Pitch (May 2026)</h2>
-      
-        <p class="project-desc">
-          Conducted an in-depth equity research and valuation analysis on Advanced Micro Devices (AMD), 
-          evaluating the company’s growth in AI, data centers, and high-performance computing through financial 
-          modeling, DCF valuation, Monte Carlo simulations, and technical analysis. Analyzed AMD’s competitive 
-          positioning against NVIDIA and Intel, assessed revenue growth, profitability, risk factors, and market 
-          sentiment indicators, and developed a professional investment thesis with a Hold/Trim recommendation 
-          based on valuation sensitivity, execution risk, and future AI infrastructure demand trends.
-        </p>
-      
-        <p class="project-meta">
-          <strong>Tools:</strong> Financial Analysis, Statistical Analysis, & Technical Analysis
-        </p>
-       
-        <div class="project-links">
-          <a class="chip"
-             href="https://docs.google.com/presentation/d/1RN68B7-7E-5u-KC7lHgY8qh2BgpJvo4RcF3UDh_cioY/edit?usp=sharing"
-             target="_blank"
-             rel="noopener">
-            Project
-          </a>
-        </div>
-      </div> 
-    
-  </main>
-
+    </div>
+    <div class="butterfly-wrap"><svg class="butterfly" viewBox="0 0 400 320" aria-hidden="true">
+<defs>
+  <linearGradient id="wingA" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe0e8" stop-opacity=".55"/><stop offset="1" stop-color="#f7b2c4" stop-opacity=".12"/></linearGradient>
+  <linearGradient id="wingB" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7b2c4" stop-opacity=".35"/><stop offset="1" stop-color="#ffe0e8" stop-opacity=".1"/></linearGradient>
+</defs>
+<g class="wing r"><path d="M203 160 C 225 105, 270 45, 335 28 C 372 18, 392 42, 382 82 C 372 122, 330 150, 285 162 C 255 170, 225 168, 203 166 Z" fill="url(#wingA)" stroke="#ffd3de" stroke-width="1.6"/><path d="M203 172 C 240 172, 290 182, 318 212 C 340 236, 335 272, 305 282 C 278 291, 252 270, 236 246 C 222 226, 210 200, 203 180 Z" fill="url(#wingB)" stroke="#ffd3de" stroke-width="1.6"/><path d="M205 162 C 250 120, 300 70, 345 36 M205 163 C 262 140, 322 110, 378 82 M205 164 C 262 160, 312 152, 350 138 M262 104 C 282 118, 312 124, 350 112 M300 70 C 318 92, 340 98, 372 92 M205 176 C 248 200, 282 236, 298 278 M205 175 C 252 186, 292 202, 322 226 M246 210 C 262 228, 288 238, 318 246" fill="none" stroke="#ffe1e8" stroke-width=".8" opacity=".75"/></g>
+<g transform="translate(400 0) scale(-1 1)"><g class="wing l"><path d="M203 160 C 225 105, 270 45, 335 28 C 372 18, 392 42, 382 82 C 372 122, 330 150, 285 162 C 255 170, 225 168, 203 166 Z" fill="url(#wingA)" stroke="#ffd3de" stroke-width="1.6"/><path d="M203 172 C 240 172, 290 182, 318 212 C 340 236, 335 272, 305 282 C 278 291, 252 270, 236 246 C 222 226, 210 200, 203 180 Z" fill="url(#wingB)" stroke="#ffd3de" stroke-width="1.6"/><path d="M205 162 C 250 120, 300 70, 345 36 M205 163 C 262 140, 322 110, 378 82 M205 164 C 262 160, 312 152, 350 138 M262 104 C 282 118, 312 124, 350 112 M300 70 C 318 92, 340 98, 372 92 M205 176 C 248 200, 282 236, 298 278 M205 175 C 252 186, 292 202, 322 226 M246 210 C 262 228, 288 238, 318 246" fill="none" stroke="#ffe1e8" stroke-width=".8" opacity=".75"/></g></g>
+<path d="M197 132 C 190 102, 178 82, 160 66 M203 132 C 210 102, 222 82, 240 66" fill="none" stroke="#ffd3de" stroke-width="1.3"/>
+<circle cx="160" cy="66" r="2.6" fill="#ffd3de"/><circle cx="240" cy="66" r="2.6" fill="#ffd3de"/>
+<ellipse cx="200" cy="176" rx="5.5" ry="36" fill="#ffd9e2" opacity=".9"/>
+<circle cx="200" cy="136" r="6.5" fill="#ffd9e2"/>
+</svg></div>
+  </div>
+  <svg class="slope" viewBox="0 0 600 400" preserveAspectRatio="none" aria-hidden="true">
+<defs><linearGradient id="slopeFill" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7b2c4" stop-opacity=".05"/><stop offset=".55" stop-color="#f3c6d1" stop-opacity=".55"/><stop offset="1" stop-color="#fbe3e9" stop-opacity=".9"/></linearGradient></defs>
+<path d="M0 400 C 200 360, 380 250, 600 110 L600 400 Z" fill="url(#slopeFill)"/>
+<path d="M0 400 C 200 360, 380 250, 600 110" fill="none" stroke="#ffe3ea" stroke-width="1.5" opacity=".9" vector-effect="non-scaling-stroke"/>
+</svg>
+</header>
+<main class="content">
+<section class="panel" aria-label="Projects">
+  <div class="filters" role="group" aria-label="Filter projects"><button class="filter" aria-pressed="true" data-f="all">All</button><button class="filter" aria-pressed="false" data-f="ml">Machine learning</button><button class="filter" aria-pressed="false" data-f="pipe">Data engineering</button><button class="filter" aria-pressed="false" data-f="viz">Visualization</button><button class="filter" aria-pressed="false" data-f="fin">Finance</button><button class="filter" aria-pressed="false" data-f="web">Web apps</button></div>
+  <div class="projects"><article class="project" data-cat="ml"><span class="cat">Machine learning</span><h3>Loan Default Risk Model: Heritage Credit Union</h3><p>Built a cost-sensitive binary classification model to assess loan default risk from historical borrower data. Ran EDA and feature engineering to find the key risk drivers, then trained and compared logistic regression, decision trees, random forest and gradient boosting with cross-validation. Tuned the classification threshold on business cost trade-offs (false negatives vs. false positives) to minimize total financial loss and fit underwriting capacity.</p><p class="result">Projected to cut annual default losses by about $450K</p><div class="chips"><span class="chip">Python</span><span class="chip">Pandas</span><span class="chip">scikit-learn</span><span class="chip">Logistic Regression</span><span class="chip">Decision Trees</span><span class="chip">Random Forest</span><span class="chip">Gradient Boosting</span><span class="chip">Cross-Validation</span></div><a class="link" href="https://github.com/aishanomani/The_Backside_Undergrads_Final" target="_blank" rel="noopener">View on GitHub <span class="arrow">→</span></a></article><article class="project" data-cat="web"><span class="cat">Web apps</span><h3>Demo AI Image Authenticity Detector</h3><p>A demo web app that lets users upload images and estimates how likely the content is AI-generated or digitally manipulated. Designed a friendly interface around the image processing and analysis output, applying AI concepts to real concerns about deepfakes and falsified media.</p><div class="chips"><span class="chip">HTML</span><span class="chip">CSS</span><span class="chip">JavaScript</span><span class="chip">AI Concepts</span><span class="chip">Image Analysis</span></div><a class="link" href="https://github.com/aishanomani/demo-ai-image-authenticator" target="_blank" rel="noopener">View on GitHub <span class="arrow">→</span></a></article><article class="project" data-cat="pipe"><span class="cat">Data engineering</span><h3>PrecisionParts Manufacturing Big Data Pipeline</h3><p>Designed and built an end-to-end big data pipeline for a supply chain manufacturing analytics platform: batch processing, real-time machine telemetry streaming, workflow orchestration and automated data quality monitoring. Analyzed production defects, inventory risk, supplier performance and sensor anomalies to surface supplier quality correlations and predictive maintenance opportunities. Built as a team and deployed on Docker.</p><div class="chips"><span class="chip">Hadoop HDFS</span><span class="chip">PySpark</span><span class="chip">Apache Kafka</span><span class="chip">Spark Structured Streaming</span><span class="chip">Apache Airflow</span><span class="chip">Docker</span><span class="chip">Python</span></div><a class="link" href="https://github.com/aishanomani/The_Leftside_Undergrads_Final" target="_blank" rel="noopener">View on GitHub <span class="arrow">→</span></a></article><article class="project" data-cat="viz"><span class="cat">Visualization</span><h3>Student Debt &amp; Career Outcomes Research</h3><p>A Tableau research project on how student debt affects career outcomes and return on education in the US. Cleaned and joined FRED, College Scorecard, BLS and IPEDS data in Tableau Prep, then built interactive views of loan growth, debt vs. earnings, wage-to-debt ratios by major, unemployment by education level, institution type, and the top and bottom fields by ROI.</p><div class="chips"><span class="chip">Tableau</span><span class="chip">Tableau Prep Builder</span><span class="chip">Data Cleaning</span><span class="chip">Data Visualization</span><span class="chip">Data Analysis</span></div><a class="link" href="https://github.com/aishanomani/student_debt_and_career_outcomes_research_project" target="_blank" rel="noopener">View on GitHub <span class="arrow">→</span></a></article><article class="project" data-cat="pipe"><span class="cat">Data engineering</span><h3>Distributed Data Pipeline &amp; Scalable Data Architecture</h3><p>Designed a scalable pipeline that merges several operational databases into a central data warehouse. Built an automated, Dockerized ETL process over distributed PostgreSQL systems including sharded sales databases, merged data across shards for consistency, extended the design with Cassandra for query-specific access patterns, and evaluated Citus for distributed SQL.</p><div class="chips"><span class="chip">SQL</span><span class="chip">PostgreSQL</span><span class="chip">Cassandra</span><span class="chip">Docker</span><span class="chip">ETL Pipelines</span><span class="chip">Python</span><span class="chip">Data Warehousing</span><span class="chip">Distributed Systems</span></div><a class="link" href="https://github.com/aishanomani/The_Leftside_Undergrads_Midterm" target="_blank" rel="noopener">View on GitHub <span class="arrow">→</span></a></article><article class="project" data-cat="viz"><span class="cat">Visualization</span><h3>Tampa Bay Forward Magazine (The Power Broker Media Group)</h3><p>Researched the Black Diaspora of Tampa Bay for the 20th Anniversary Edition of The Power Broker magazine, working under Dr. Han Reichgelt and Gypsy Gallardo. Collected, cleaned and analyzed demographic and community data, then turned it into visualizations and data-anchored stories for a public audience. Contributed research, analysis and editorial content for pages 48 to 51.</p><div class="chips"><span class="chip">Tableau</span><span class="chip">Excel</span><span class="chip">Canva</span><span class="chip">Data Cleaning</span><span class="chip">Data Analysis</span><span class="chip">Data Visualization</span></div><a class="link" href="https://www.flipsnack.com/56FBE87A9F7/tampa-bay-forward-by-the-power-broker-magazine-zn8yhkz4ot/full-view.html" target="_blank" rel="noopener">Read the issue <span class="arrow">→</span></a></article><article class="project" data-cat="viz"><span class="cat">Visualization</span><h3>Optimization of Retail Performance</h3><p>Analyzed a large retail transaction dataset to find sales trends, customer behavior and profitability drivers across products, regions and time. Built interactive Tableau dashboards for revenue, geography, segmentation and product hierarchies, plus sales forecasting and what-if analysis on the impact of better customer ratings.</p><div class="chips"><span class="chip">Tableau</span><span class="chip">Business Analytics</span><span class="chip">Data Visualization</span><span class="chip">Forecasting</span><span class="chip">What-If Analysis</span></div><a class="link" href="https://drive.google.com/drive/folders/1whCwitVZCn1H_JP4GmFka4CY9XDnlnef?usp=sharing" target="_blank" rel="noopener">Open in Google Drive <span class="arrow">→</span></a></article><article class="project" data-cat="ml"><span class="cat">Machine learning</span><h3>Vehicle Pricing Analysis Across Regions &amp; Engine Types (R)</h3><p>Statistical analysis of used vehicle prices across regions and engine types. Preprocessed, sampled and factor-converted the data, then used variance tests, one- and two-way ANOVA and post hoc Tukey comparisons to find significant price differences, interpreted in a market context.</p><div class="chips"><span class="chip">R</span><span class="chip">RStudio</span><span class="chip">Statistical Analysis</span><span class="chip">ANOVA</span><span class="chip">Hypothesis Testing</span><span class="chip">Data Sampling</span></div><a class="link" href="https://drive.google.com/drive/folders/1gtVYwuzy9mQ-KPhC7kfJrIJG82HPXXsB?usp=sharing" target="_blank" rel="noopener">Open in Google Drive <span class="arrow">→</span></a></article><article class="project" data-cat="fin"><span class="cat">Finance</span><h3>Business Performance: Data Analysis &amp; Modeling</h3><p>Evaluated sales, profitability, market share and employee productivity across products and regions. Did revenue and margin analysis, target vs. actual comparisons and regional benchmarking, and built dynamic Excel models for pricing optimization, profitability and scenario-based decisions.</p><div class="chips"><span class="chip">Microsoft Excel</span><span class="chip">Data Modeling</span><span class="chip">Financial Analysis</span><span class="chip">Scenario Analysis</span></div><a class="link" href="https://drive.google.com/drive/folders/12YBCyBtMfZx2kPr248HNk9tqJ3Au-kAU?usp=share_link" target="_blank" rel="noopener">Open in Google Drive <span class="arrow">→</span></a></article><article class="project" data-cat="ml"><span class="cat">Machine learning</span><h3>Loan Default Prediction: Data Analysis &amp; Modeling</h3><p>Predicted loan default risk from historical borrower data. Explored the data for patterns and risk drivers, segmented customers with k-means clustering, then built and compared decision tree and neural network models and selected the best performer.</p><div class="chips"><span class="chip">Python</span><span class="chip">Pandas</span><span class="chip">scikit-learn</span><span class="chip">k-Means</span><span class="chip">Decision Trees</span><span class="chip">Neural Networks</span></div><a class="link" href="https://colab.research.google.com/drive/1YN2NcxhGYS1uTpIR65ipHhsezv1HUygc?usp=sharing" target="_blank" rel="noopener">Open notebook <span class="arrow">→</span></a></article><article class="project" data-cat="pipe"><span class="cat">Data engineering</span><h3>Database Design and SQL Implementation</h3><p>Designed a normalized (3NF) relational database for a fictional makeup store covering customers, products and orders, with a full ERD. Wrote and tested CRUD and analytical SQL: customer behavior, sales reporting, rankings and cumulative metrics.</p><div class="chips"><span class="chip">SQL</span><span class="chip">Database Design</span><span class="chip">ERD Modeling</span><span class="chip">Normalization</span><span class="chip">Microsoft SQL Server</span></div><a class="link" href="https://drive.google.com/drive/folders/1UyOpwhJ19vcttG8y_OnLepCuPEcsJjvK?usp=share_link" target="_blank" rel="noopener">Open in Google Drive <span class="arrow">→</span></a></article><article class="project" data-cat="fin"><span class="cat">Finance</span><h3>AMD Stock Pitch (May 2026)</h3><p>Equity research and valuation of Advanced Micro Devices, focused on its growth in AI, data centers and high-performance computing. Used financial modeling, DCF valuation, Monte Carlo simulation and technical analysis, compared AMD with NVIDIA and Intel, and delivered a Hold/Trim thesis based on valuation sensitivity, execution risk and AI infrastructure demand.</p><div class="chips"><span class="chip">Financial Modeling</span><span class="chip">DCF</span><span class="chip">Monte Carlo</span><span class="chip">Technical Analysis</span></div><a class="link" href="https://docs.google.com/presentation/d/1RN68B7-7E-5u-KC7lHgY8qh2BgpJvo4RcF3UDh_cioY/edit?usp=sharing" target="_blank" rel="noopener">View pitch deck <span class="arrow">→</span></a></article></div>
+</section>
+<section class="cta">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" class="spark"><path d="M12 2v6M12 16v6M2 12h6M16 12h6M5 5l3.5 3.5M15.5 15.5L19 19M19 5l-3.5 3.5M8.5 15.5L5 19"/></svg>
+  <p>Hiring for finance, AI or analytics? Let's talk.</p>
+  <a class="btn sm" href="mailto:aisha.nomani@gmail.com">Email me <span class="arrow">→</span></a>
+</section>
+</main>
+<footer class="foot">
+  <span>© 2026 Aisha Nomani</span>
+  <span><a href="mailto:aisha.nomani@gmail.com">Email</a><a href="https://linkedin.com/in/aisha-nomani" target="_blank" rel="noopener">LinkedIn</a><a href="https://github.com/aishanomani" target="_blank" rel="noopener">GitHub</a><a href="https://atlasehr.org" target="_blank" rel="noopener">Atlas EHR</a></span>
+</footer>
+</div>
+<script src="assets/main.js" defer></script>
 </body>
 </html>

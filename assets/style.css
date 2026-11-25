@@ -313,6 +313,12 @@ a { color: inherit; }
 .project h3 { font-family: var(--serif); font-size: var(--fs-title); font-weight: 600; line-height: 1.15; margin: 4px 0 12px; }
 .project p { font-size: var(--fs-sm); color: var(--ink-soft); margin: 0 0 16px; }
 .project .result { font-size: var(--fs-sm); color: var(--rose-deep); font-weight: 600; margin: -6px 0 16px; }
+.project .note {
+  font-size: var(--fs-xs); line-height: 1.55; margin: -4px 0 16px; padding: 10px 12px;
+  color: var(--muted); background: rgba(247, 178, 196, .14);
+  border-left: 2px solid rgba(199, 106, 134, .5); border-radius: 0 8px 8px 0;
+}
+.project .note strong { color: var(--rose-deep); }
 .chips { display: flex; flex-wrap: wrap; gap: 6px; margin: auto 0 18px; padding-top: 4px; }
 .chip {
   font-size: var(--fs-xs); padding: 4px 11px; border-radius: 999px;

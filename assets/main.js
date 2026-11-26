@@ -25,3 +25,4 @@ filters.forEach((f) => f.addEventListener("click", () => {
     p.hidden = !(f.dataset.f === "all" || p.dataset.cat === f.dataset.f);
   });
 }));
+

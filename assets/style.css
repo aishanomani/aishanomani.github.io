@@ -164,15 +164,13 @@ a { color: inherit; }
   position: absolute; right: 2%; top: 50%; width: min(100%, 440px);
   transform: translateY(-58%) rotate(-8deg);
   filter: drop-shadow(0 0 16px rgba(247, 178, 196, .55)) drop-shadow(0 0 46px rgba(247, 178, 196, .3));
-  animation: butterfly-float 7s ease-in-out infinite;
+  animation: hover 7s ease-in-out infinite;
 }
-.butterfly .wing {
-  transform-box: view-box;
-  transform-origin: 50% 53.125%;
-  animation: butterfly-flap 5s ease-in-out infinite;
-}
-@keyframes butterfly-float { 0%,100% { transform: translateY(-58%) rotate(-8deg); } 50% { transform: translateY(-62%) rotate(-6deg); } }
-@keyframes butterfly-flap { 0%,100% { transform: scaleX(1); } 50% { transform: scaleX(.9); } }
+.butterfly .wing { transform-origin: 200px 170px; animation: flap 5s ease-in-out infinite; }
+.butterfly .wing.l { animation-name: flapL; }
+@keyframes hover { 0%,100% { transform: translateY(-58%) rotate(-8deg); } 50% { transform: translateY(-62%) rotate(-6deg); } }
+@keyframes flap { 0%,100% { transform: scaleX(1); } 50% { transform: scaleX(.9); } }
+@keyframes flapL { 0%,100% { transform: scaleX(1); } 50% { transform: scaleX(.9); } }
 .slope { position: absolute; right: 0; bottom: 0; width: 70%; height: 70%; z-index: 1; pointer-events: none; }
 
 /* compact header for inner pages */
